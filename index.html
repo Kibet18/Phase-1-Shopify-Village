@@ -7,21 +7,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="content">
+    <section id="home">
         <header>
-            <img src="assets/shopify.png" alt="Logo" id="logo"/>
-            <h1>Shopify Village</h1>
-            <div id="search-container">
-                <input type="text" id="search-input" placeholder="Search by category or title">
-                <button id="search-button">Search</button>
-            </div>
+            <nav>
+              <img src="assets/shopify.png" alt="Logo" id="logo"/>
+              <h1>Shopify Village</h1>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+               </ul>
+            </nav>
         </header>
-
-        <section id="product">
+        <div class="container">
+                    <div class="left-section">
+                        <div class="text">
+                          <h1>Welcome to Shopify Village</h1>
+                          <p>Shopify Village is an innovative e-commerce platform designed to create a virtual shopping experience akin to strolling through a vibrant marketplace.With an expansive range of products from diverse vendors,Shopify Village offers a one-stop destination for consumers seeking a variety of goods.
+                          </p>
+                        </div>
+                    </div>
+                    <div class="right-section">
+                        <img src="assets/product.jpg" alt="product">
+                    </div>
+                </div>
+    </section>
+        
+    <section id="product">
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search by category or title">
+            <button id="search-button">Search</button>
+        </div>
             <h2>Products</h2>
             <ul id="product-list"></ul>
-        </section>
-    </div>
+    </section>
+
 
     <script src="script.js"></script>
 </body>

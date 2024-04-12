@@ -232,5 +232,5 @@ function deleteProduct(id) {
         console.error('Error deleting product:', error);
     });
 }
-// const id = 19;
-// deleteProduct(id);
+const id = 19;
+deleteProduct(id);
