@@ -202,12 +202,6 @@ footer {
 .footer2 {
   margin-bottom: 1rem;
 }
-
-.footer2 h2 {
-  font-size: 1.5rem;
-  color: #343a40;
-}
-
 .fa:hover {
   opacity: 0.7;
 }
