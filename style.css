@@ -219,3 +219,9 @@ footer {
   background: #a1051a;
   color: white;
 }
+.fa-instagram {
+  background: linear-gradient(45deg, #f9ce34 0%, #f9ce34 33%, #ee2a7b 33%, #ee2a7b 66%, #6228d7 66%, #6228d7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+}
