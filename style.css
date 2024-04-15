@@ -154,11 +154,70 @@ h2 {
 
 .product p {
   margin-bottom: 5px; 
-  font-size: 0.9rem; 
+  font-size: 0.62rem; 
 }
 
 .product button {
   padding: 5px 10px; 
   font-size: 0.8rem; 
   background-color: #007bff;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #dee2e6;
+}
+
+.footer0 {
+  margin-bottom: 1rem;
+}
+
+.footer0 h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+.footer1 {
+  margin-bottom: 1rem;
+}
+
+.social-media {
+  margin-top: 1rem;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #343a40;
+  margin: 0 0.5rem;
+}
+
+.footer2 {
+  margin-bottom: 1rem;
+}
+
+.footer2 h2 {
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
