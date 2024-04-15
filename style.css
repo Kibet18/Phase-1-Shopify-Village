@@ -12,16 +12,16 @@ html {
 }
 
 body {
-  font-size: 16px; /* Increased font size for better readability */
+  font-size: 16px; 
   margin: auto;
   padding: 0;
-  background-color: #f0f0f2; /* Lighter background color */
+  background-color: #f0f0f2;
   min-height: 100vh;
 }
 
 header {
   background-color: #f0f0f0;
-  padding: 10px 20px; /* Added padding */
+  padding: 10px 20px; 
 }
 
 nav {
@@ -89,14 +89,14 @@ a {
 
 #search-input {
   padding: 10px;
-  border-radius: 20px; /* Increased border radius */
+  border-radius: 20px; 
   border: 1px solid #ccc;
   margin-right: 10px;
 }
 
 #search-button {
   padding: 10px 20px;
-  border-radius: 20px; /* Increased border radius */
+  border-radius: 20px; 
   background-color: #007bff;
   color:white;
   border: none;
