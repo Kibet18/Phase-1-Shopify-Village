@@ -1,37 +1,44 @@
+/* Importing the Inter font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/* Resetting styles for all elements */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif; /* Setting default font */
 }
 
+/* Smooth scrolling behavior for HTML element */
 html {
   scroll-behavior: smooth;
 }
 
+/* Styling for the body */
 body {
-  font-size: 16px; 
-  margin: auto;
+  font-size: 16px; /* Setting default font size */
+  margin: auto; /* Centering horizontally */
   padding: 0;
-  background-color: #f0f0f2;
-  min-height: 100vh;
+  background-color: #f0f0f2; /* Background color */
+  min-height: 100vh; /* Ensuring minimum height of viewport */
 }
 
+/* Styling for the header */
 header {
-  background-color: #f0f0f0;
-  padding: 10px 20px; 
+  background-color: #f0f0f0; /* Background color */
+  padding: 10px 20px; /* Padding */
 }
 
+/* Styling for the navigation */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1200px; /* Limiting width */
+  margin: 0 auto; /* Centering horizontally */
 }
 
+/* Styling for the logo */
 #logo {
   width: 50px;
   height: 50px;
@@ -39,41 +46,48 @@ nav {
   padding-bottom: 5px;
 }
 
+/* Styling for navigation links */
 nav ul {
   display: flex;
   gap: 20px;
 }
 
+/* Removing default list styles */
 li {
   list-style-type: none;
 }
 
+/* Removing default text decoration from links */
 a {
   text-decoration: none;
 }
-.text h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-  }
-  
-  .text p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  .right-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20px;
-  }
-  
-  .right-section img {
-    max-width: 100%;
-    height: auto;
-  }
-  
 
+/* Styling for text content */
+.text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Styling for right section */
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.right-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling for container */
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -83,22 +97,25 @@ a {
   padding-top: 20px;
 }
 
+/* Styling for search container */
 #search-container {
   margin-top: 20px;
 }
 
+/* Styling for search input */
 #search-input {
   padding: 10px;
-  border-radius: 20px; 
+  border-radius: 20px;
   border: 1px solid #ccc;
   margin-right: 10px;
 }
 
+/* Styling for search button */
 #search-button {
   padding: 10px 20px;
-  border-radius: 20px; 
+  border-radius: 20px;
   background-color: #007bff;
-  color:white;
+  color: white;
   border: none;
   cursor: pointer;
 }
@@ -107,15 +124,18 @@ a {
   background-color: #0056b3;
 }
 
+/* Styling for sections */
 section {
   padding: 20px;
 }
 
+/* Styling for h2 headings */
 h2 {
   margin-top: 0;
   padding-inline-start: 0cap;
 }
 
+/* Styling for product list */
 #product-list {
   display: flex;
   flex-wrap: wrap;
@@ -125,11 +145,12 @@ h2 {
   margin: auto;
 }
 
+/* Styling for individual product */
 .product {
   flex: 0 0 calc(25% - 20px);
   margin: 10px;
-  padding: 10px; 
-  max-width: 200px; 
+  padding: 10px;
+  max-width: 200px;
   height: auto;
   background-color: #ffffff;
   border-radius: 10px;
@@ -149,19 +170,21 @@ h2 {
 .product h3 {
   margin-top: 0;
   margin-bottom: 5px;
-  font-size: 1rem; 
+  font-size: 1rem;
 }
 
 .product p {
-  margin-bottom: 5px; 
-  font-size: 0.62rem; 
+  margin-bottom: 5px;
+  font-size: 0.62rem;
 }
 
 .product button {
-  padding: 5px 10px; 
-  font-size: 0.8rem; 
+  padding: 5px 10px;
+  font-size: 0.8rem;
   background-color: #007bff;
 }
+
+/* Styling for font-awesome icons */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -169,6 +192,8 @@ h2 {
   text-align: center;
   text-decoration: none;
 }
+
+/* Styling for footer */
 footer {
   background-color: #f8f9fa;
   padding: 2rem;
@@ -202,32 +227,7 @@ footer {
 .footer2 {
   margin-bottom: 1rem;
 }
+
 .fa:hover {
   opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.fa-youtube {
-  background: #a1051a;
-  color: white;
-}
-.fa-instagram {
-  background: linear-gradient(45deg, #f9ce34 0%, #f9ce34 33%, #ee2a7b 33%, #ee2a7b 66%, #6228d7 66%, #6228d7 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent; 
-}
-.footer1 p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  margin-bottom: 10px;
 }
